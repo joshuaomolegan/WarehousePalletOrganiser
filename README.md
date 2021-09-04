@@ -17,3 +17,6 @@ A Java application to organise boxes on a warehouse pallet using 3D bin packing 
 ## TODO
 * Add labels to each placed box
 * Add back button
+
+## References
+* https://stackoverflow.com/questions/4656706/how-to-find-same-value-rectangular-areas-of-a-given-size-in-a-matrix-most-effici
