@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joshuaomolegan.palletorganiser.controllers.BoxDimensionsController">
+    <children>
+        <Button layoutX="272.0" layoutY="316.0" mnemonicParsing="false" onAction="#boxDimensionsNext" prefHeight="26.0" prefWidth="52.0" text="Next" />
+        <TextField fx:id="labelTextField" layoutX="224.0" layoutY="144.0" />
+        <TextField fx:id="lengthTextField" layoutX="224.0" layoutY="187.0" />
+        <Text layoutX="216.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Box Dimensions (in cm)" textAlignment="CENTER" wrappingWidth="164.80001220703116">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Label layoutX="186.0" layoutY="148.0" text="Label:" />
+        <Label layoutX="205.0" layoutY="191.0" text="L:" />
+      <TextField fx:id="widthTextField" layoutX="224.0" layoutY="229.0" />
+      <Label layoutX="202.0" layoutY="233.0" text="W:" />
+      <TextField fx:id="heightTextField" layoutX="224.0" layoutY="271.0" />
+      <Label layoutX="203.0" layoutY="275.0" text="H:" />
+      <Label fx:id="boxAddedLbl" layoutX="215.0" layoutY="109.0" prefHeight="26.0" prefWidth="165.0" />
+    </children>
+</AnchorPane>
