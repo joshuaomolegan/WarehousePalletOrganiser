@@ -101,6 +101,7 @@ public class BoxDimensionsController {
             Parent root = loader.load();
 
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setResizable(false);
 
             Scene scene = new Scene(root);
             stage.setScene(scene);

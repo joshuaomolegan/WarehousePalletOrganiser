@@ -78,6 +78,7 @@ public class PalletDimensionsController {
         Parent root = FXMLLoader.load(getClass().getResource("/com/joshuaomolegan/palletorganiser/fxml/boxdimensions.fxml"));
 
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setResizable(false);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

@@ -13,6 +13,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("fxml/palletdimensions.fxml"));
         primaryStage.setTitle("Warehouse Pallet Organiser");
+        primaryStage.setResizable(false);
         Scene scene = new Scene(root);
 
         primaryStage.setScene(scene);

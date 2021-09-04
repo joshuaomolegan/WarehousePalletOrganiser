@@ -21,8 +21,6 @@ import javafx.stage.Stage;
 
 import java.util.Random;
 
-import java.io.IOException;
-
 public class BoxDisplayController {
 
     class SmartGroup extends Group {
