@@ -1,4 +1,4 @@
-# WarehousePalletOrganiser
+# Warehouse Pallet Organiser
 A Java application to organise boxes on a warehouse pallet using 3D bin packing algorithms. Built using the JavaFX library.
 
 ## Usage
